@@ -1,9 +1,9 @@
-package ACO15.GIT.src.ua.artcode.classWork.week2.crm.db;
-import ACO15.ua.artcod.classWork.week2.crm.model.Dev;
-import ACO15.ua.artcod.classWork.week2.crm.model.Manager;
-import ACO15.ua.artcod.classWork.week2.crm.model.Project;
-import ACO15.ua.artcod.classWork.week2.crm.model.Task;
-import ACO15.ua.artcod.classWork.week2.crm.utils.Array;
+package ua.artcode.classWork.week2.crm.db;
+import ua.artcod.classWork.week2.crm.model.Dev;
+import ua.artcod.classWork.week2.crm.model.Manager;
+import ua.artcod.classWork.week2.crm.model.Project;
+import ua.artcod.classWork.week2.crm.model.Task;
+import ua.artcod.classWork.week2.crm.utils.Array;
 
 import java.time.LocalDate;
 

@@ -1,5 +1,5 @@
-package ACO15.GIT.src.ua.artcode.classWork.week2.crm.utils;
-import ACO15.ua.artcod.classWork.week2.crm.model.Manager;
+package ua.artcode.classWork.week2.crm.utils;
+import ua.artcod.classWork.week2.crm.model.Manager;
 import java.util.Arrays;
 /**
  * Created by work on 14.08.2016.

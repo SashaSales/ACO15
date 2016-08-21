@@ -1,4 +1,4 @@
-package ACO15.GIT.src.ua.artcode.classWork.week1.Company;
+package ACO15.GIT.src.classWork.week1.Company;
 
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoField;

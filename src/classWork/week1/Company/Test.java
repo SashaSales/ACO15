@@ -1,4 +1,4 @@
-package ACO15.GIT.src.ua.artcode.classWork.week1.Company;
+package ACO15.GIT.src.classWork.week1.Company;
 
 /**
  * Created by work on 07.08.2016.

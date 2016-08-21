@@ -1,6 +1,6 @@
-package ACO15.GIT.src.ua.artcode.classWork.week2.crm.test.utils;
-import ACO15.ua.artcod.classWork.week2.crm.model.Dev;
-import ACO15.ua.artcod.classWork.week2.crm.utils.Array;
+package ua.artcode.classWork.week2.crm.test.utils;
+import ua.artcod.classWork.week2.crm.model.Dev;
+import ua.artcod.classWork.week2.crm.utils.Array;
 /**
  * Created by work on 14.08.2016.
  */

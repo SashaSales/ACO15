@@ -1,9 +1,9 @@
-package ACO15.GIT.src.ua.artcode.classWork.week2.crm.run;
-import ACO15.ua.artcod.classWork.week2.crm.db.AppDB;
-import ACO15.ua.artcod.classWork.week2.crm.logic.BusinessLogicMethods;
-import ACO15.ua.artcod.classWork.week2.crm.model.Dev;
-import ACO15.ua.artcod.classWork.week2.crm.model.Manager;
-import ACO15.ua.artcod.classWork.week2.crm.model.Project;
+package ua.artcode.classWork.week2.crm.run;
+import ua.artcod.classWork.week2.crm.db.AppDB;
+import ua.artcod.classWork.week2.crm.controller.ManagerControllerImpl;
+import ua.artcod.classWork.week2.crm.model.Dev;
+import ua.artcod.classWork.week2.crm.model.Manager;
+import ua.artcod.classWork.week2.crm.model.Project;
 
 import java.util.Scanner;
 /**
@@ -22,7 +22,7 @@ public class RunProgram {
             appDB.addManager(new Manager("Serafima", "sdfsdfs"));
 
 
-            BusinessLogicMethods logicMethods = new BusinessLogicMethods(appDB);
+            ManagerControllerImpl logicMethods = new ManagerControllerImpl(appDB);
 
             Scanner scanner = new Scanner(System.in);
 

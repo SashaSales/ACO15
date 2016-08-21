@@ -1,8 +1,8 @@
-package ACO15.GIT.src.ua.artcode.classWork.week2.crm.logic;
+package ua.artcode.classWork.week2.crm.logic;
 
-import ACO15.ua.artcod.classWork.week2.crm.db.AppDB;
-import ACO15.ua.artcod.classWork.week2.crm.model.Project;
-import ACO15.ua.artcod.classWork.week2.crm.model.Task;
+import ua.artcod.classWork.week2.crm.db.AppDB;
+import ua.artcod.classWork.week2.crm.model.Project;
+import ua.artcod.classWork.week2.crm.model.Task;
 import java.time.LocalDateTime;
 
 public class BusinessLogicMethods {
