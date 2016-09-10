@@ -24,11 +24,13 @@ public class TestNodeUtils {
         Node remove = nodeUtils.remove(newHead,5);
         System.out.println(nodeUtils.toString(newHead));
 
-        List<Object> objects = nodeUtils.toArray(newHead);
+        /*List<Object> objects = nodeUtils.toArray(newHead);
         for (int i = 0; i < objects.size(); i++) {
             System.out.println(objects.get(i) + ",");
-        }
+        }*/
 
+        Node reverse = nodeUtils.reverse(newHead);
+        System.out.println(nodeUtils.toString(reverse));
 
     }
 
