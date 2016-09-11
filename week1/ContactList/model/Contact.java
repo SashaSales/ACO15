@@ -1,10 +1,11 @@
 package ua.artcod.homeWork.week1.ContactList.model;
+import java.io.Serializable;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 /**
  * Created by work on 09.08.2016.
  */
-public class Contact {
+public class Contact implements Serializable{
 
   private int id;
   private String name;

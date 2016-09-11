@@ -1,18 +1,34 @@
 package ua.artcod.homeWork.week1.ContactList.appDB;
 
 import ua.artcod.homeWork.week1.ContactList.model.Contact;
+import ua.artcod.homeWork.week1.ContactList.utils.IOutils;
+import ua.artcod.homeWork.week1.ContactList.utils.IOutilsImpl;
 import ua.artcod.homeWork.week1.ContactList.validation.Validation;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Created by work on 10.09.2016.
  */
-public class appDBimpl implements IappDB{
+public class appDBimpl implements IappDB, Serializable{
 
     private List<Contact> contactList = new ArrayList<>();
     private int freeIndexContact;
+    private IOutilsImpl ioUtils = new IOutilsImpl();
+
+    public String DB_PATH;
+
+    public appDBimpl() {
+    }
+
+    public appDBimpl(String DB_PATH) {
+        this.DB_PATH = DB_PATH;
+    }
 
     @Override
     public List<Contact> addContact(String name, String phoneNumber, String email, String operator) {
@@ -159,5 +175,21 @@ public class appDBimpl implements IappDB{
     @Override
     public List<Contact> getContactKievstar() {
         return null;
+    }
+
+    @Override
+    public void saveDB() throws IOException{
+
+        ioUtils.saveObjToFile(this, DB_PATH);
+        /*for (int i = 0; i < contactList.size(); i++) {
+            ioUtils.saveObjToFile(contactList.get(i), DB_PATH);
+        }*/
+
+    }
+
+    public IappDB loadDB(String path) throws IOException {
+
+        IappDB appDB = (appDBimpl) IOutilsImpl.loadObjFromFile(DB_PATH);
+        return appDB;
     }
 }

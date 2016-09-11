@@ -1,9 +1,12 @@
 package ua.artcod.homeWork.week1.ContactList.controller;
 
 import ua.artcod.homeWork.week1.ContactList.appDB.IappDB;
+import ua.artcod.homeWork.week1.ContactList.appDB.appDBimpl;
 import ua.artcod.homeWork.week1.ContactList.model.Contact;
+import ua.artcod.homeWork.week1.ContactList.utils.IOutils;
 import ua.artcod.homeWork.week1.ContactList.validation.Validation;
 
+import java.io.IOException;
 import java.util.List;
 
 /**
@@ -13,10 +16,13 @@ public class ControllerListImpl implements IControllerlist {
 
     private List<Contact> contactList;
     private IappDB iappDB;
+    private IOutils ioUtils;
+    public String DB_PATH;
     //private Validation validation = new Validation(iappDB);
 
-    public ControllerListImpl(IappDB iappDB) {
+    public ControllerListImpl(IappDB iappDB, String DB_PATH) {
         this.iappDB = iappDB;
+        this.DB_PATH = DB_PATH;
     }
 
     @Override
@@ -118,4 +124,18 @@ public class ControllerListImpl implements IControllerlist {
     public List<Contact> getContactKievstar() {
         return null;
     }
+
+    @Override
+    public void saveDB() throws IOException {
+        iappDB.saveDB();
+
+    }
+
+    @Override
+    public IappDB loadDB(String path) throws IOException {
+
+        return iappDB.loadDB(DB_PATH);
+    }
+
+
 }

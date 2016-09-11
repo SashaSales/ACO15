@@ -1,9 +1,14 @@
 package ua.artcod.homeWork.week1.ContactList.view;
 
+import ua.artcod.homeWork.week1.ContactList.appDB.IappDB;
+import ua.artcod.homeWork.week1.ContactList.appDB.appDBimpl;
+import ua.artcod.homeWork.week1.ContactList.controller.ControllerListImpl;
 import ua.artcod.homeWork.week1.ContactList.controller.IControllerlist;
 import ua.artcod.homeWork.week1.ContactList.model.Contact;
 import ua.artcod.homeWork.week1.ContactList.validation.Validation;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.Scanner;
 
 /**
@@ -15,6 +20,12 @@ public class IView {
     private IControllerlist iControllerlist;
     private Validation validation = new Validation(iControllerlist);
     private Contact contact;
+    private appDBimpl iappDB;
+
+
+    public IView(Scanner scanner) {
+        this.scanner = scanner;
+    }
 
     public IView(Scanner scanner, IControllerlist iControllerlist) {
         this.scanner = scanner;
@@ -32,6 +43,7 @@ public class IView {
         System.out.println("7.Показать все контакты оператора MTS");
         System.out.println("8.Показать первые 5 контактов");
         System.out.println("9.Показать последние 5 контактов");
+        System.out.println("10.Сохранить контакт лист перед выходом");
     }
 
     public void showShortMenu() {
@@ -80,7 +92,7 @@ public class IView {
 
 
 
-    public void start() {
+    public void start() throws IOException {
         showMainMenu();
         int choice = -1;
         while ((choice = Integer.parseInt(scanner.nextLine())) != 0) {
@@ -131,6 +143,8 @@ public class IView {
             } else if (choice == 9) {
                 iControllerlist.showLastFiveContacts();
 
+            } else if (choice == 10) {
+                iControllerlist.saveDB();
             }
 
 
@@ -154,6 +168,32 @@ public class IView {
         iControllerlist.removeContact(name);
 
     }
+
+
+    public String pathForDatabase() throws IOException {
+
+        System.out.println(" Выберете место для хранения базы данных: ");
+        System.out.println("1. Сохранять ДБ по дефолтному пути: temp/MyDB.txt");
+        System.out.println("2. Выбрать свой путь сохранения базы данных");
+        System.out.println("3. Создать новую директорию");
+        System.out.println("4. Создать файл с именем");
+
+        String path = null;
+
+        int choice = -1;
+        while ((choice = Integer.parseInt(scanner.nextLine())) != 0) {
+            if (choice == 1) {
+                path = "temp/myDB.txt";
+                System.out.println("Путь сохранения базы данных" + path);
+                return path;
+
+            }
+
+        }
+        System.out.println("Путь сохранения базы данных: " + path != null ? path : null);
+        return path;
+    }
+
 }
 
 

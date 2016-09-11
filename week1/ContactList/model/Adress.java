@@ -1,9 +1,11 @@
 package ua.artcod.homeWork.week1.ContactList.model;
 
+import java.io.Serializable;
+
 /**
  * Created by work on 10.08.2016.
  */
-public class Adress {
+public class Adress implements Serializable{
     public String city;
     public String street;
     public String houseNumber;

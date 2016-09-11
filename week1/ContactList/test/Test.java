@@ -7,15 +7,17 @@ import ua.artcod.homeWork.week1.ContactList.controller.ControllerListImpl;
 import ua.artcod.homeWork.week1.ContactList.controller.IControllerlist;
 import ua.artcod.homeWork.week1.ContactList.model.Contact;
 
+import java.io.IOException;
+
 public class Test {
 
 
+    public static void main(String[] args) throws IOException {
 
+        String path = "temp/testDB.txt";
 
-
-    public static void main(String[] args) {
-        IappDB iappDB = new appDBimpl();
-        IControllerlist iControllerlist = new ControllerListImpl(iappDB);
+        IappDB iappDB = new appDBimpl(path);
+        IControllerlist iControllerlist = new ControllerListImpl(iappDB, path);
 
         iControllerlist.addContact("Sergey", "0677777777", "Sergey@gmail.com");
         iControllerlist.addContact("Alex", "0737373737", "Alex@gmail.com");
@@ -24,6 +26,13 @@ public class Test {
         iControllerlist.addContact("Anya", "0989898989", "Anya@gmail.com");
         iControllerlist.addContact("Yulya", "0636363636", "Yulya@gmail.com");
         iControllerlist.addContact("Senya", "0939393939", "Senya@gmail.com");
+
+        //iControllerlist.saveDB();
+
+        IappDB iappDB1 = iControllerlist.loadDB(path);
+        iappDB1.showAll();
+
+        //ioUtils.saveObjToFile(appDBimpl, DB_PATH);
 
         //************checkUniqueName
 

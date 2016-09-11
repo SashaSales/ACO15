@@ -2,6 +2,7 @@ package ua.artcod.homeWork.week1.ContactList.appDB;
 
 import ua.artcod.homeWork.week1.ContactList.model.Contact;
 
+import java.io.IOException;
 import java.util.List;
 
 /**
@@ -24,5 +25,7 @@ public interface IappDB {
     List<Contact> getContactList();
     List<Contact> getContactLife();
     List<Contact> getContactKievstar();
+    void saveDB() throws IOException;
+    IappDB loadDB(String path) throws IOException;
 
 }
