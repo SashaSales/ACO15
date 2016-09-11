@@ -34,39 +34,45 @@ public class IView {
         System.out.println("9.Показать последние 5 контактов");
     }
 
+    public void showShortMenu() {
+        System.out.println("Введите номер функции");
+        System.out.println("1.Остаться в этом меню");
+        System.out.println("2.Вернуться к предыдущему меню");
+    }
+
     public void showMenuCreateContact() {
 
-        System.out.println("Введите имя");
+        System.out.println("Введите имя нового контакта");
         String name = scanner.nextLine();
 
         if (validation.checkContactName(name) == false) {
             while (validation.checkContactName(name) == false) {
-                System.out.println("Введите имя");
+                System.out.println("Введите имя нового контакта");
                 name = scanner.nextLine();
             }
         }
 
-        System.out.println("Введите номер телефона");
+        System.out.println("Введите номер телефона нового контакта");
         String phoneNumber = scanner.nextLine();
 
         if(validation.checkContactPhoneNumber(phoneNumber) == false) {
             while (validation.checkContactPhoneNumber(phoneNumber) == false) {
-                System.out.println("Введите номер телефона");
+                System.out.println("Введите номер телефона нового контакта");
                 phoneNumber = scanner.nextLine();
             }
         }
 
-        System.out.println("Введите email");
+        System.out.println("Введите email нового контакта");
         String email = scanner.nextLine();
 
         if(validation.checkContactEmail(email) == false) {
             while (validation.checkContactEmail(email) == false) {
-                System.out.println("Введите email");
+                System.out.println("Введите email нового контакта");
                 email = scanner.nextLine();
             }
         }
 
-        System.out.println("Контакт:");
+        System.out.println("Новый контакт:");
         iControllerlist.addContact(name, phoneNumber, email);
         Contact contact = iControllerlist.findContact(name);
         System.out.println(contact.toString());
@@ -79,15 +85,35 @@ public class IView {
         int choice = -1;
         while ((choice = Integer.parseInt(scanner.nextLine())) != 0) {
             if (choice == 1) {
+
                 showMenuCreateContact();
 
+                showShortMenu();
+                int secondchoice = -1;
+                while ((secondchoice = Integer.parseInt(scanner.nextLine())) == 1) {
+                    showMenuCreateContact();
+                    showShortMenu();
+                }
             } else if (choice == 2) {
 
-                System.out.println("Введите имя");
-                String name = scanner.nextLine();
-                iControllerlist.removeContact(name);
+                showRemoveContactMenu();
+                showShortMenu();
+                int secondchoice = -1;
+                while ((secondchoice = Integer.parseInt(scanner.nextLine())) == 1) {
+                    showRemoveContactMenu();;
+                    showShortMenu();
+                }
 
-            } else if (choice == 4) {
+            } else if (choice == 3) {
+
+                showUpdateContactMenu();
+                showShortMenu();
+                int secondchoice = -1;
+                while ((secondchoice = Integer.parseInt(scanner.nextLine())) == 1) {
+                    showRemoveContactMenu();
+                    showShortMenu();
+                }
+             } else if (choice == 4) {
                 iControllerlist.showAll();
 
             } else if (choice == 5) {
@@ -110,6 +136,23 @@ public class IView {
 
             showMainMenu();
         }
+    }
+
+    private void showUpdateContactMenu() {
+
+        System.out.println("Введите имя котакта для редактирования данных");
+        String name = scanner.nextLine();
+        System.out.println("Введите имя котакта для редактирования данных");
+        String newName = scanner.nextLine();
+        iControllerlist.updateContactInfo(name, newName);
+    }
+
+    private void showRemoveContactMenu() {
+
+        System.out.println("Введите имя котакта для удаления со списка");
+        String name = scanner.nextLine();
+        iControllerlist.removeContact(name);
+
     }
 }
 

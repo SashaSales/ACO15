@@ -41,6 +41,13 @@ public class ControllerListImpl implements IControllerlist {
     }
 
     @Override
+    public Contact removeContact(String name) {
+
+        Contact remove = iappDB.removeContact(name);
+        return remove;
+    }
+
+    @Override
     public void showAll() {
 
         iappDB.showAll();

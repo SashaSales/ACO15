@@ -11,6 +11,7 @@ public interface IControllerlist {
 
     List<Contact> addContact(String name, String phoneNumber, String email);
     Contact removeContact(int index);
+    Contact removeContact(String name);
     void showAll();
     void showFirstFiveContacts();
     void showLastFiveContacts();

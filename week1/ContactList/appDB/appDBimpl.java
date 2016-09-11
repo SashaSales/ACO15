@@ -36,6 +36,22 @@ public class appDBimpl implements IappDB{
     }
 
     @Override
+    public Contact removeContact(String name) {
+
+        Contact contact = null;
+
+        for (int i = 0; i < contactList.size(); i++) {
+            if (contactList.get(i).getName().equals(name)){
+                contact = contactList.get(i);
+                contactList.remove(i);
+            }
+        }
+
+        return contact;
+    }
+
+
+    @Override
     public void showAll() {
 
         for (int i = 0; i < contactList.size(); i++) {

@@ -11,6 +11,7 @@ public interface IappDB {
 
     List<Contact> addContact(String name, String phoneNumber, String email, String operator);
     Contact removeContact(int index);
+    Contact removeContact(String name);
     void showAll();
     void showFirstFiveContacts();
     void showLastFiveContacts();
