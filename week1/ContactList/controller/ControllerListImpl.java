@@ -2,6 +2,7 @@ package ua.artcod.homeWork.week1.ContactList.controller;
 
 import ua.artcod.homeWork.week1.ContactList.appDB.IappDB;
 import ua.artcod.homeWork.week1.ContactList.appDB.appDBimpl;
+import ua.artcod.homeWork.week1.ContactList.constants.Contstants;
 import ua.artcod.homeWork.week1.ContactList.model.Contact;
 import ua.artcod.homeWork.week1.ContactList.utils.IOutils;
 import ua.artcod.homeWork.week1.ContactList.validation.Validation;
@@ -17,12 +18,10 @@ public class ControllerListImpl implements IControllerlist {
     private List<Contact> contactList;
     private IappDB iappDB;
     private IOutils ioUtils;
-    public String DB_PATH;
     //private Validation validation = new Validation(iappDB);
 
-    public ControllerListImpl(IappDB iappDB, String DB_PATH) {
+    public ControllerListImpl(IappDB iappDB) {
         this.iappDB = iappDB;
-        this.DB_PATH = DB_PATH;
     }
 
     @Override
@@ -132,9 +131,9 @@ public class ControllerListImpl implements IControllerlist {
     }
 
     @Override
-    public IappDB loadDB(String path) throws IOException {
+    public IappDB loadDB() throws IOException {
 
-        return iappDB.loadDB(DB_PATH);
+        return iappDB.loadDB();
     }
 
 

@@ -1,5 +1,6 @@
 package ua.artcod.homeWork.week1.ContactList.appDB;
 
+import ua.artcod.homeWork.week1.ContactList.constants.Contstants;
 import ua.artcod.homeWork.week1.ContactList.model.Contact;
 import ua.artcod.homeWork.week1.ContactList.utils.IOutils;
 import ua.artcod.homeWork.week1.ContactList.utils.IOutilsImpl;
@@ -21,13 +22,7 @@ public class appDBimpl implements IappDB, Serializable{
     private int freeIndexContact;
     private IOutilsImpl ioUtils = new IOutilsImpl();
 
-    public String DB_PATH;
-
     public appDBimpl() {
-    }
-
-    public appDBimpl(String DB_PATH) {
-        this.DB_PATH = DB_PATH;
     }
 
     @Override
@@ -180,16 +175,16 @@ public class appDBimpl implements IappDB, Serializable{
     @Override
     public void saveDB() throws IOException{
 
-        ioUtils.saveObjToFile(this, DB_PATH);
+        ioUtils.saveObjToFile(this, Contstants.getPathForSavedb());
         /*for (int i = 0; i < contactList.size(); i++) {
             ioUtils.saveObjToFile(contactList.get(i), DB_PATH);
         }*/
 
     }
 
-    public IappDB loadDB(String path) throws IOException {
+    public IappDB loadDB() throws IOException {
 
-        IappDB appDB = (appDBimpl) IOutilsImpl.loadObjFromFile(DB_PATH);
+        IappDB appDB = (appDBimpl) IOutilsImpl.loadObjFromFile(Contstants.getPathForSavedb());
         return appDB;
     }
 }

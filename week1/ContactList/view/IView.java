@@ -2,9 +2,12 @@ package ua.artcod.homeWork.week1.ContactList.view;
 
 import ua.artcod.homeWork.week1.ContactList.appDB.IappDB;
 import ua.artcod.homeWork.week1.ContactList.appDB.appDBimpl;
+import ua.artcod.homeWork.week1.ContactList.constants.Contstants;
 import ua.artcod.homeWork.week1.ContactList.controller.ControllerListImpl;
 import ua.artcod.homeWork.week1.ContactList.controller.IControllerlist;
 import ua.artcod.homeWork.week1.ContactList.model.Contact;
+import ua.artcod.homeWork.week1.ContactList.utils.IOutils;
+import ua.artcod.homeWork.week1.ContactList.utils.IOutilsImpl;
 import ua.artcod.homeWork.week1.ContactList.validation.Validation;
 
 import java.io.File;
@@ -185,6 +188,7 @@ public class IView {
             if (choice == 1) {
                 path = "temp/myDB.txt";
                 System.out.println("Путь сохранения базы данных" + path);
+                IOutilsImpl.savePathToFile(Contstants.getPathForSavedb(), path);
                 return path;
 
             }

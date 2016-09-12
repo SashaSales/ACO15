@@ -53,7 +53,7 @@ public class IOutilsImpl implements Serializable{
 
     // touch == create new file
 
-    public boolean createFile(String path) {
+    public static boolean createFile(String path) {
 
         File file = new File(path);
 
@@ -222,6 +222,42 @@ public class IOutilsImpl implements Serializable{
                 }
             }
         }
+    }
+
+
+    public static  void savePathToFile(String pathFile, String pathForDB){
+
+        File file = new File(pathFile);
+        if (file.exists()){
+            try {
+                file.createNewFile();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+
+        try {
+            PrintWriter printWriter = new PrintWriter(new FileWriter(pathFile));
+            printWriter.append(pathForDB);
+            printWriter.flush();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    public static String loadPathFromFile(String pathFile){
+        String pathDB = null;
+
+        try {
+            BufferedReader br = new BufferedReader(new FileReader(pathFile));
+            pathDB = br.readLine();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return pathDB;
     }
 
 

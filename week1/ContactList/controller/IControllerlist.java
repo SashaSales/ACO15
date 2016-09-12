@@ -27,6 +27,6 @@ public interface IControllerlist {
     List<Contact> getContactLife();
     List<Contact> getContactKievstar();
     void saveDB() throws IOException;
-    IappDB loadDB(String path) throws IOException;
+    IappDB loadDB() throws IOException;
 
 }
