@@ -8,8 +8,6 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import ua.artcode.view.swing.viewInfo.DetailedInfoWorker;
-
 /**
  * Created by work on 18.09.2016.
  */
@@ -46,7 +44,7 @@ public class ViewListWorkers extends JFrame{
             detailedInfoWorker[i].addActionListener(new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent e) {
-                    new DetailedInfoWorker(worker);
+                    new ua.artcode.view.swing.viewInfo.ViewDetailedInfoWorker(worker);
                 }
             });
             getContentPane().add(nameWorkersLabel[i]);
