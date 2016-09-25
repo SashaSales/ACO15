@@ -1,0 +1,129 @@
+2016/09/25 13:44:03 Add contact: name - Sergey  phone - 0677777777  email - Sergey@gmail.com
+2016/09/25 13:44:03 Add contact: name - Alex  phone - 0737373737  email - Alex@gmail.com
+2016/09/25 13:44:03 Add contact: name - Ivan  phone - 0733333333  email - Ivan@gmail.com
+2016/09/25 13:44:03 Add contact: name - Elena  phone - 0505050505  email - Elena@gmail.com
+2016/09/25 13:44:03 Add contact: name - Anya  phone - 0989898989  email - Anya@gmail.com
+2016/09/25 13:44:03 Add contact: name - Yulya  phone - 0636363636  email - Yulya@gmail.com
+2016/09/25 13:44:03 Add contact: name - Senya  phone - 0939393939  email - Senya@gmail.com
+2016/09/25 13:44:03 Add contact: name - Serofim  phone - 0939111939  email - Serofim@gmail.com
+2016/09/25 13:44:03 Show All contacts 
+2016/09/25 14:12:57 Add contact: name - Sergey  phone - 0677777777  email - Sergey@gmail.com
+2016/09/25 14:12:57 Add contact: name - Alex  phone - 0737373737  email - Alex@gmail.com
+2016/09/25 14:12:57 Add contact: name - Ivan  phone - 0733333333  email - Ivan@gmail.com
+2016/09/25 14:12:57 Add contact: name - Elena  phone - 0505050505  email - Elena@gmail.com
+2016/09/25 14:12:57 Add contact: name - Anya  phone - 0989898989  email - Anya@gmail.com
+2016/09/25 14:12:57 Add contact: name - Yulya  phone - 0636363636  email - Yulya@gmail.com
+2016/09/25 14:12:57 Add contact: name - Senya  phone - 0939393939  email - Senya@gmail.com
+2016/09/25 14:12:57 Add contact: name - Serofim  phone - 0939111939  email - Serofim@gmail.com
+2016/09/25 14:12:57 Show All contacts 
+2016/09/25 14:14:04 Add contact: name - Sergey  phone - 0677777777  email - Sergey@gmail.com
+2016/09/25 14:14:04 Add contact: name - Alex  phone - 0737373737  email - Alex@gmail.com
+2016/09/25 14:14:04 Add contact: name - Ivan  phone - 0733333333  email - Ivan@gmail.com
+2016/09/25 14:14:04 Add contact: name - Elena  phone - 0505050505  email - Elena@gmail.com
+2016/09/25 14:14:04 Add contact: name - Anya  phone - 0989898989  email - Anya@gmail.com
+2016/09/25 14:14:04 Add contact: name - Yulya  phone - 0636363636  email - Yulya@gmail.com
+2016/09/25 14:14:04 Add contact: name - Senya  phone - 0939393939  email - Senya@gmail.com
+2016/09/25 14:14:04 Add contact: name - Serofim  phone - 0939111939  email - Serofim@gmail.com
+2016/09/25 14:14:04 Show All contacts 
+2016/09/25 14:16:49 Add contact: name - Sergey  phone - 0677777777  email - Sergey@gmail.com
+2016/09/25 14:16:49 Add contact: name - Alex  phone - 0737373737  email - Alex@gmail.com
+2016/09/25 14:16:49 Add contact: name - Ivan  phone - 0733333333  email - Ivan@gmail.com
+2016/09/25 14:16:49 Add contact: name - Elena  phone - 0505050505  email - Elena@gmail.com
+2016/09/25 14:16:49 Add contact: name - Anya  phone - 0989898989  email - Anya@gmail.com
+2016/09/25 14:16:49 Add contact: name - Yulya  phone - 0636363636  email - Yulya@gmail.com
+2016/09/25 14:16:49 Add contact: name - Senya  phone - 0939393939  email - Senya@gmail.com
+2016/09/25 14:16:49 Add contact: name - Serofim  phone - 0939111939  email - Serofim@gmail.com
+2016/09/25 14:21:52 Add contact: name - Sergey  phone - 0677777777  email - Sergey@gmail.com
+2016/09/25 14:21:52 Add contact: name - Alex  phone - 0737373737  email - Alex@gmail.com
+2016/09/25 14:21:52 Add contact: name - Ivan  phone - 0733333333  email - Ivan@gmail.com
+2016/09/25 14:21:52 Add contact: name - Elena  phone - 0505050505  email - Elena@gmail.com
+2016/09/25 14:21:52 Add contact: name - Anya  phone - 0989898989  email - Anya@gmail.com
+2016/09/25 14:21:52 Add contact: name - Yulya  phone - 0636363636  email - Yulya@gmail.com
+2016/09/25 14:21:52 Add contact: name - Senya  phone - 0939393939  email - Senya@gmail.com
+2016/09/25 14:21:52 Add contact: name - Serofim  phone - 0939111939  email - Serofim@gmail.com
+2016/09/25 14:21:52 Show All contacts 
+2016/09/25 14:25:48 Add contact: name - Sergey  phone - 0677777777  email - Sergey@gmail.com
+2016/09/25 14:25:48 Add contact: name - Alex  phone - 0737373737  email - Alex@gmail.com
+2016/09/25 14:25:48 Add contact: name - Ivan  phone - 0733333333  email - Ivan@gmail.com
+2016/09/25 14:25:48 Add contact: name - Elena  phone - 0505050505  email - Elena@gmail.com
+2016/09/25 14:25:48 Add contact: name - Anya  phone - 0989898989  email - Anya@gmail.com
+2016/09/25 14:25:48 Add contact: name - Yulya  phone - 0636363636  email - Yulya@gmail.com
+2016/09/25 14:25:48 Add contact: name - Senya  phone - 0939393939  email - Senya@gmail.com
+2016/09/25 14:25:48 Add contact: name - Serofim  phone - 0939111939  email - Serofim@gmail.com
+2016/09/25 14:25:48 Show All contacts 
+2016/09/25 14:26:22 Add contact: name - Sergey  phone - 0677777777  email - Sergey@gmail.com
+2016/09/25 14:26:22 Add contact: name - Alex  phone - 0737373737  email - Alex@gmail.com
+2016/09/25 14:26:22 Add contact: name - Ivan  phone - 0733333333  email - Ivan@gmail.com
+2016/09/25 14:26:22 Add contact: name - Elena  phone - 0505050505  email - Elena@gmail.com
+2016/09/25 14:26:22 Add contact: name - Anya  phone - 0989898989  email - Anya@gmail.com
+2016/09/25 14:26:22 Add contact: name - Yulya  phone - 0636363636  email - Yulya@gmail.com
+2016/09/25 14:26:22 Add contact: name - Senya  phone - 0939393939  email - Senya@gmail.com
+2016/09/25 14:26:22 Add contact: name - Serofim  phone - 0939111939  email - Serofim@gmail.com
+2016/09/25 14:26:22 Show All contacts 
+2016/09/25 14:26:47 Add contact: name - Sergey  phone - 0677777777  email - Sergey@gmail.com
+2016/09/25 14:26:47 Add contact: name - Alex  phone - 0737373737  email - Alex@gmail.com
+2016/09/25 14:26:47 Add contact: name - Ivan  phone - 0733333333  email - Ivan@gmail.com
+2016/09/25 14:26:47 Add contact: name - Elena  phone - 0505050505  email - Elena@gmail.com
+2016/09/25 14:26:47 Add contact: name - Anya  phone - 0989898989  email - Anya@gmail.com
+2016/09/25 14:26:47 Add contact: name - Yulya  phone - 0636363636  email - Yulya@gmail.com
+2016/09/25 14:26:47 Add contact: name - Senya  phone - 0939393939  email - Senya@gmail.com
+2016/09/25 14:26:47 Add contact: name - Serofim  phone - 0939111939  email - Serofim@gmail.com
+2016/09/25 14:26:47 Show All contacts 
+2016/09/25 14:27:20 Add contact: name - Sergey  phone - 0677777777  email - Sergey@gmail.com
+2016/09/25 14:27:20 Add contact: name - Alex  phone - 0737373737  email - Alex@gmail.com
+2016/09/25 14:27:20 Add contact: name - Ivan  phone - 0733333333  email - Ivan@gmail.com
+2016/09/25 14:27:20 Add contact: name - Elena  phone - 0505050505  email - Elena@gmail.com
+2016/09/25 14:27:20 Add contact: name - Anya  phone - 0989898989  email - Anya@gmail.com
+2016/09/25 14:27:20 Add contact: name - Yulya  phone - 0636363636  email - Yulya@gmail.com
+2016/09/25 14:27:20 Add contact: name - Senya  phone - 0939393939  email - Senya@gmail.com
+2016/09/25 14:27:20 Add contact: name - Serofim  phone - 0939111939  email - Serofim@gmail.com
+2016/09/25 14:27:20 Show All contacts 
+2016/09/25 14:16:49 Show All contacts 
+2016/09/25 14:27:34 Add contact: name - Sergey  phone - 0677777777  email - Sergey@gmail.com
+2016/09/25 14:27:34 Add contact: name - Alex  phone - 0737373737  email - Alex@gmail.com
+2016/09/25 14:27:34 Add contact: name - Ivan  phone - 0733333333  email - Ivan@gmail.com
+2016/09/25 14:27:34 Add contact: name - Elena  phone - 0505050505  email - Elena@gmail.com
+2016/09/25 14:27:34 Add contact: name - Anya  phone - 0989898989  email - Anya@gmail.com
+2016/09/25 14:27:34 Add contact: name - Yulya  phone - 0636363636  email - Yulya@gmail.com
+2016/09/25 14:27:34 Add contact: name - Senya  phone - 0939393939  email - Senya@gmail.com
+2016/09/25 14:27:34 Add contact: name - Serofim  phone - 0939111939  email - Serofim@gmail.com
+2016/09/25 14:27:34 Show All contacts 
+2016/09/25 14:27:58 Add contact: name - Sergey  phone - 0677777777  email - Sergey@gmail.com
+2016/09/25 14:27:58 Add contact: name - Alex  phone - 0737373737  email - Alex@gmail.com
+2016/09/25 14:27:58 Add contact: name - Ivan  phone - 0733333333  email - Ivan@gmail.com
+2016/09/25 14:27:58 Add contact: name - Elena  phone - 0505050505  email - Elena@gmail.com
+2016/09/25 14:27:58 Add contact: name - Anya  phone - 0989898989  email - Anya@gmail.com
+2016/09/25 14:27:58 Add contact: name - Yulya  phone - 0636363636  email - Yulya@gmail.com
+2016/09/25 14:27:58 Add contact: name - Senya  phone - 0939393939  email - Senya@gmail.com
+2016/09/25 14:27:58 Add contact: name - Serofim  phone - 0939111939  email - Serofim@gmail.com
+2016/09/25 14:27:58 Show All contacts 
+2016/09/25 14:28:24 Add contact: name - Sergey  phone - 0677777777  email - Sergey@gmail.com
+2016/09/25 14:28:24 Add contact: name - Alex  phone - 0737373737  email - Alex@gmail.com
+2016/09/25 14:28:24 Add contact: name - Ivan  phone - 0733333333  email - Ivan@gmail.com
+2016/09/25 14:28:24 Add contact: name - Elena  phone - 0505050505  email - Elena@gmail.com
+2016/09/25 14:28:24 Add contact: name - Anya  phone - 0989898989  email - Anya@gmail.com
+2016/09/25 14:28:24 Add contact: name - Yulya  phone - 0636363636  email - Yulya@gmail.com
+2016/09/25 14:28:24 Add contact: name - Senya  phone - 0939393939  email - Senya@gmail.com
+2016/09/25 14:28:24 Add contact: name - Serofim  phone - 0939111939  email - Serofim@gmail.com
+2016/09/25 14:28:24 Show All contacts 
+2016/09/25 14:28:49 Add contact: name - Sergey  phone - 0677777777  email - Sergey@gmail.com
+2016/09/25 14:28:49 Add contact: name - Alex  phone - 0737373737  email - Alex@gmail.com
+2016/09/25 14:28:49 Add contact: name - Ivan  phone - 0733333333  email - Ivan@gmail.com
+2016/09/25 14:28:49 Add contact: name - Elena  phone - 0505050505  email - Elena@gmail.com
+2016/09/25 14:28:49 Add contact: name - Anya  phone - 0989898989  email - Anya@gmail.com
+2016/09/25 14:28:49 Add contact: name - Yulya  phone - 0636363636  email - Yulya@gmail.com
+2016/09/25 14:28:49 Add contact: name - Senya  phone - 0939393939  email - Senya@gmail.com
+2016/09/25 14:28:49 Add contact: name - Serofim  phone - 0939111939  email - Serofim@gmail.com
+2016/09/25 14:28:49 Show All contacts 
+2016/09/25 14:32:12 Add contact: name - Sergey  phone - 0677777777  email - Sergey@gmail.com
+2016/09/25 14:32:12 Add contact: name - Alex  phone - 0737373737  email - Alex@gmail.com
+2016/09/25 14:32:12 Add contact: name - Ivan  phone - 0733333333  email - Ivan@gmail.com
+2016/09/25 14:32:12 Add contact: name - Elena  phone - 0505050505  email - Elena@gmail.com
+2016/09/25 14:32:12 Add contact: name - Anya  phone - 0989898989  email - Anya@gmail.com
+2016/09/25 14:32:12 Add contact: name - Yulya  phone - 0636363636  email - Yulya@gmail.com
+2016/09/25 14:32:12 Add contact: name - Senya  phone - 0939393939  email - Senya@gmail.com
+2016/09/25 14:32:12 Add contact: name - Serofim  phone - 0939111939  email - Serofim@gmail.com
+2016/09/25 14:32:12 Show All contacts 
+2016/09/25 14:32:41 Add contact: name - Sergey  phone - 0677777777  email - Sergey@gmail.com
+2016/09/25 14:33:55 Show All contacts 
+2016/09/25 14:38:45 Add contact: name - Alexxxx  phone - 0984569872  email - wewe@gmail.com
